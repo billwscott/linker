@@ -1,0 +1,26 @@
+login with delicious login (billwscott)
+
+delicious api
+
+https://api.del.icio.us/v1/posts/get?tag=web2.0
+<posts dt="2006-09-14" tag="web2.0" user="billwscott"><post href="http://www.centraldesktoplibrary.com/" description="Share and Search Team Stuff - Save Web Pages, Bookmarks, Files, Documents" hash="bc11ab414dcdf621a79ff43bfeb9582f" others="12" tag="software productivity bookmarking collaboration web2.0 search enterprise" time="2006-09-14T10:29:12Z"/></posts>
+
+
+
+
+http://del.icio.us/feeds/json/billwscott/web2.0
+if(typeof(Delicious) == 'undefined') Delicious = {}; Delicious.posts = [{"u":"http://www.centraldesktoplibrary.com/","d":"Share and Search Team Stuff - Save Web Pages, Bookmarks, Files, Documents","t":["software","productivity","bookmarking","collaboration","web2.0","search","enterprise"]}]
+
+http://del.icio.us/feeds/json/billwscott/web2.0?count=3&raw
+[{"u":"http://www.centraldesktoplibrary.com/","d":"Share and Search Team Stuff - Save Web Pages, Bookmarks, Files, Documents","t":["software","productivity","bookmarking","collaboration","web2.0","search","enterprise"]}]
+
+>>> r[0].u"http://www.centraldesktoplibrary.com/">>> r[0].d"Share and Search Team Stuff - Save Web Pages, Bookmarks, Files, Documents">>> r[0].t["software","productivity","bookmarking","collaboration","web2.0","search","enterprise"]
+
+
+?? Does this really work?
+http://del.icio.us/feeds/json/billwscott/web2.0?count=3&callback=foo
+foo([{"u":"http://www.centraldesktoplibrary.com/","d":"Share and Search Team Stuff - Save Web Pages, Bookmarks, Files, Documents","t":["software","productivity","bookmarking","collaboration","web2.0","search","enterprise"]}])
+
+
+http://del.icio.us/feeds/json/tags/billwscott?callback=foo
+foo({"bookmarking":2,"bookmarks":1,"collaboration":1,"enterprise":1,"productivity":1,"search":1,"software":1,"tags":1,"tools":1,"web2.0":2})

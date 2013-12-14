@@ -1,0 +1,173 @@
+#yahoo-linker-content {
+	padding:8px 12px 8px 6px;
+	text-align:left;
+}
+#yahoo-linker-ysearch {
+	margin-right:10px;
+}
+#yahoo-linker-inputs button {
+	display:inline;
+}
+
+#yahoo-linker-inputs label {
+	font-size:14px;
+	margin-right:4px;
+}
+#yahoo-linker-preview-link {
+	font-size:13px;
+	font-weight:bold;
+	color:#2222CC;
+	margin-left:20px;
+}
+yahoo-linker-as-html-text{
+	font-size:11px;
+}
+#yschweb {
+	margin-top:10px;
+}
+#yahoo-linker-ysearch-title, #yahoo-linker-dsearch-title {
+	margin:8px 0px 0px 0px;
+	padding-left:20px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#yahoo-linker-ysearch-title {
+	background: url(../images/yahoo.small.jpg) no-repeat 0 0;
+}
+#yahoo-linker-dsearch-title {
+	background: url(../images/delicious.small.gif) no-repeat 0 0;
+}
+
+.panel-container {
+    /* prevent horizontal scrollbar. Happens on some pages when there is some 'css interference' */
+	/*overflow-y:hidden;*/
+	z-index:998;
+}
+
+.panel .hd {
+	/*background-color:#3d77cb;*/
+	text-align:left;
+	background-color:#454545;
+	color:#FFF;
+	font-size:14px;
+	height:14px;
+	border:1px solid #FFF;
+	border-bottom:1px solid #000;
+	font-weight:bold;
+	overflow:hidden;
+	padding:4px 4px 4px 8px ;
+}
+.panel {
+/*	filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;*/
+}
+
+.panel .bd {
+	background-color: white;
+/*	height:300px;
+*/	width:500px;
+}
+
+.panel .close {
+	position:absolute;
+	top:4px;
+	right:5px;
+	z-index:6;
+	height:12px;
+	width:12px;
+	margin:0px;
+	padding:0px;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	visibility:inherit;
+}
+
+.panel .close.secure {
+	background-image:url(https://a248.e.akamai.net/sec.yimg.com/i/nt/ic/ut/alt3/close12_1.gif);
+}
+
+
+
+div#yschres{font:83%/1.2em arial,helvetica,clean,sans-serif;}
+
+/*don't need?*/
+div#yschres pre, div#yschres code, div#yschres select, div#yschres input, div#yschres textarea {font-size:100%}
+
+div#yschres form {margin: 0;}
+div#yschres fieldset {border: 0 solid #fff;}
+div#yschres a, #yschpri .yschttl, #yschpri .yschiy .yschhd a.dll {color:#0000de}
+div#yschres a:visited {color:#639}
+div#yschres a:active {color: #f00;}
+div#yschres em {font-style:normal;}
+div#yschres img {border:0;}
+div#yschres h1, h2 {margin:0;padding:0;}
+
+#yschres {width:100%;width:expression((document.all('yschft') )?document.all('yschft').offsetWidth:'100%');} /* IE: min-width */
+div#yschres small {font: 78% verdana;}
+
+div#yschres {float:left;margin-right:5px;padding-bottom:0px;margin-top:-0.2em;}
+
+/* west column */
+#yschcont {width:100%;float:left;margin-left:0px;}
+#yschpri {margin:0 0 10px 0px;}
+
+/* all results */
+.yschspns li a, #yschpri .yschttl {font-size:120%;}
+#yschres .yschspns li em, #yschres .yschurl {color:#008000;}
+
+#yschres .yschspns .yschhd {text-align:right;margin-bottom:2px;}
+#yschres .yschspns h2 a, #yschsec h2 a {text-decoration:none;}
+#yschres .yschspns h2 a:visited, #yschsec h2 a:visited {color:#909090}
+#yschres .yschspns h2 a:hover, #yschsec h2 a:hover {text-decoration:underline;color:#0000de}
+
+/* web/dir only */
+#yschpri ol {margin:0px;padding:0;}
+
+#yschweb em, #yschweb em a, #yschdir .yschinf, #yschdir .yschinf a, #yschweb li a, #yschweb li em, #yschiy address a {color:#8284cc;}
+#yschweb em a:visited, #yschdir .yschinf a:visited, #yschweb li a:visited {color:#639}
+#yschweb li {margin:0 0 8px 20px;}
+#yschweb .yschabstr {color:#000;overflow:hidden;width:100%;}
+
+#yschsec {width:200px;}
+#yschsec h2 {display:block;width:100%;margin-bottom:0;padding-bottom:2px;text-align:center;}
+#yschsec li {border:0;background-color:transparent;padding:5px 0 14px 0;margin-bottom:0;}
+#yschsec h2, #yschsec li {border-left:1px solid #B6CDE1;}
+#yschsec li div {color: #000;font-size:100%;}
+#yschsec li a, #yschsec li div, #yschsec li em {margin:0 0 0 15px;}
+
+.yschactive a {color:blue !important;}  /* active abstract links */
+
+#yschpg {border:none;padding-bottom:13px;margin-bottom:0px;padding-top:9px;}
+#yschpg a, #yschpg span {padding:3px 7px;margin:0px;border:none;}
+#yschpg span {font-weight:bold;}
+#yschpg big span {padding:0px;}
+#yschpg a.yschnbdr {padding:1px;border:none;margin:0px;font-weight:bold;font-size:110%;}
+#yschpg a.yschnbdr:hover {padding:0px;border:1px solid #0000dd;margin:0px;font-weight:bold;font-size:110%;}
+#yschpg a:hover {padding:2px 6px;border:1px solid #0000dd; }
+#yschprvb a span, #yschnxtb a span  {text-decoration:underline;font-size:85%;border:none;}
+#yschstg a, #yschstg .yschon {float:none;display:inline;}
+#yschprvb {display:inline;}
+#yschnxtb {display:inline;}
+#yschprvb big span {margin-right:1px;padding-right:14px;background: url(http://us.i1.yimg.com/us.yimg.com/i/us/search/gr/ar_prev.gif) no-repeat center right;}
+#yschnxtb big span {margin-left:1px;padding-left:14px;background: url(http://us.i1.yimg.com/us.yimg.com/i/us/search/gr/ar_next.gif) no-repeat center left;}
+#yschinfo p {font-family:arial;font-size:100%;}
+#yschinfo p span {font-family:verdana;font-size:78%;}
+#yschpg big a {text-decoration:none;}
+#yschpg big a b {text-decoration:underline;}
+#yschiy a:visited.yschttl, #yschiy .yschttl a:visited {color:#639;}
+.yschqt {text-align:center;clear:both;}
+#yschpri .yschqt {clear:none;border:1px solid #999;padding:8px;width:25em;text-align:left;margin:0 0 8px 35px;}
+#yschweb ol .yschqt {margin:17px 0 0;}
+#yschsec { z-index:10; background:white;}
+#yschres {width:auto}
+#yschsec {width: 236px;}
+#yschsec li {width: 220px; }
+#yschsec li a, #yschsec li div, #yschsec li em  {margin-left: 9px;}
+/*#yschpri {margin-left: 261px;}
+#yschcont {margin-left: -256px;}
+*/
+#yschres .yschspns li em {margin-right: 21px;}
+#yschsec li a {font-size:120%;}.yschspns li {margin-bottom:13px;}#iycpn {color:#666;}
+#yschres {margin-top:13px;}#yschtools {border:none;font:normal 85% arial;margin-top:-5px;}
+
+#yschweb li.on {background-color:#DDDDDD;}

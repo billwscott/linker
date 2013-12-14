@@ -1,0 +1,312 @@
+
+
+#mailoptions_body {
+    margin-top    : 0px;
+    margin-bottom : 0px;
+    margin-left   : 0px;
+    margin-right  : 0px;
+    background    : #f4f5eb;
+    overflow      : clip;
+    font-family   : Arial;
+}
+
+p.mailoptions_uh {
+   width         : 99%;
+   height        : 40px;
+   background    : #f4f5eb;
+   font-family   : tahoma;
+   text-align    : center;
+   padding-top   : 12px;
+   margin-bottom : 0px;
+   margin        : 0px 5px 2px 5px;
+   font-size     : 12px;
+   font-style    : italic;
+   /* rhs looks funny in IE but this is just the placeholder for the UH anyway... */
+}
+
+#mailoptions_shell {
+   margin-top   : 1px;
+}
+
+#mailoptions_shell_table {
+    table-layout  : fixed;
+    background    : #ffffff;
+}
+
+#mailoptions_leftToolbar, #mailoptions_rightToolbar {
+   background  : #f4f5eb; 
+}
+
+#mailoptions_leftToolbar, #mailoption_leftToolbarCell, #mailoptions_rightToolbar, #mailoptions_rightToolbarCell {
+   height: 33px;
+}
+
+#mailoptions_leftToolbar, #mailoption_leftToolbarCell {
+    width: 197px;
+}
+
+#mailoptions_form { 
+    display: inline; 
+}
+
+#backToMailToolbar, #mailoptions_leftNavigation {
+}
+
+#mailOptions_leftNavigationTD {
+   border      : 1px solid #cccccc;
+   background  : #ffffff;
+}
+
+#mailoptions_divider1, #mailoptions_divider2 {
+    background   : #f4f5eb;
+    width        : 5px;
+}
+
+input#saveChangeButton {
+     /* margin-top : 7px; */
+    margin-bottom: 1px;
+}
+
+.mailoptions_statusArea {
+    position    : absolute;
+    top         : 5px;
+    right       : 5px;
+    background  : #7B79C7;
+    visibility  : hidden;
+    white-space : nowrap;
+}
+
+.mailoptions_statusText {
+   padding    : 0px 5px 0px 5px;
+   font-size  : 11px;
+   font-weight: bold;
+   color      : #ffffff;
+}
+
+.categoryListItem, .mailoptions_navigationLink {   
+   font-family  : tahoma, helvetica, arial, sans-serif;
+   font-size    : 11px;
+   color        : #222222;
+   cursor       : pointer;
+   cursor       : hand;
+   width        : 195px;
+   height       : 18px;
+   padding      : 2px 0px 0px 0px;
+   margin       : 0px;
+   padding-left : 10px;
+}
+
+.mailoptions_navigationLinkOut {
+    font-family  : tahoma, helvetica, arial, sans-serif;
+    font-size    : 11px;
+    color        : #222222;
+    cursor       : pointer;
+    cursor       : hand;
+    width        : 195px;
+    height       : 18px;
+    padding      : 2px 0px 0px 0px;
+    margin       : 0px;
+    text-decoration: none;
+}
+
+.mailoptions_navigationLink {
+    text-decoration: none;
+    width          : 190px;
+    padding-left   : 0px;
+}
+
+.mailoptions_selectedNavigationLink {
+    background : #7B79C7;
+    color      : #EBEBE4;
+}
+
+ul.styledList {
+  margin-left    : 0px;
+  padding-left   : 0px;
+  list-style-type: none;
+}
+
+#mailoptions_contentPanel {
+    background  : #ffffff;
+}
+
+#mailoptions_contentCell {
+    border: 1px solid #cccccc;  
+}
+
+div.optionPanel {
+}
+
+.optionLabel {
+   font-family  : Arial;
+   font-size    : 13px;
+   color        : #7a8180;
+   padding-right: 10px;
+}
+
+.dhtmlButton {
+    -moz-outline-style: none;
+}
+
+.dhtmlMenuButton, .dhtmlMenuButton_over {
+    padding            : 3px 10px;
+    margin             : 0px 0px;
+    font-family        : tahoma, helvetica, arial, sans-serif;
+    font-size          : 11px;
+    -moz-outline-style : none;
+    white-space        : nowrap;
+}
+
+.dhtmlMenuButton_over {
+    color      : #ffffff;
+    background : #7B79C7;
+}
+
+.optionContainer {
+    overflow     : auto;
+}
+
+.optionTable, .subCatDiv { 
+    margin-left: 15px;
+}
+
+.mailoptions_catTitleArea {
+    background-image  : url(http://us.i1.yimg.com/us.yimg.com/i/us/pim/dclient/d/img/md5/5097a959d9920cd8665c537dc31ae941_1.gif);
+    background-repeat : repeat-x;
+    background-color  : #eeeafe;
+    padding           : 7px 0px 5px 15px;
+    color             : #222222;
+    height            : 31px;
+}
+
+.mailoptions_catTitleText {
+   display      : inline;
+   font-family  : Arial;
+   font-size    : 16px;
+   font-weight  : bold;
+   color        : #000000;
+}
+
+.mailOptions_catTitleMsgArea {
+   background : #d7effd;
+}
+
+.mailOptions_catTitleMsgText {
+   font-size  : 13px;
+   font-weight: normal;
+}
+
+.mailoptions_catTitleVariable {
+   font-weight : bold;
+}
+
+h2.spamSubCategoryMainTitle, h2.mailoptions_underConstructionTitle {
+    display     : inline;
+    font-family : Arial;
+    font-size   : 13px;
+    font-weight : bold;
+    color       : #5B59a7;
+}
+
+.spamSubCategorySecondaryTitle, .mailoptions_underConstructionText {
+    font-family: Arial;
+    font-size  : 13px;
+    font-weight: normal;
+    color      : #222222;
+}
+
+.spamSubCategorySecondaryTitle{
+    display: inline;
+}
+
+.mailoptions_puntLink, .rLink{
+   font-family     : Arial;
+   font-size       : 12px;
+   font-weight     : normal;
+   text-decoration : none;
+   color           : #0066CC;
+   cursor          : pointer;
+   cursor          : hand; /* for IE 5.x compatibility */
+   -moz-user-select  : none;
+   -moz-outline-style: none;
+}
+
+A.mailoptions_puntLink:hover, A.rLink:hover, A.mailoptions_navigationLinkOut:hover {
+    text-decoration: underline;
+}
+
+.DhtmlButtonText {
+   font-family : tahoma, helvetica, arial, sans-serif;
+   /* font-family : Arial; */
+   font-size   : 11px;
+   white-space : nowrap;
+}
+
+.richTextEditorComp {
+    background-image : url(http://us.i1.yimg.com/us.yimg.com/i/us/pim/dclient/d/img/md5/5b8e02a2c3cd2e2f18766798c3ee0c3a_1.gif);
+    background-repeat: repeat-x;
+    background-color : #e7e8dd;
+}
+
+div.SimpleMenuClass {
+    padding         : 2px;
+    background-color: #e7e8dd; 
+    border-top      : 1px solid #ffffff; 
+    border-left     : 1px solid #ffffff;
+    border-bottom   : 1px solid #b3b6b0; 
+    border-right    : 1px solid #b3b6b0; 
+}
+
+.mailoptions_toolbar_lc {
+    background-image    : url(http://us.i1.yimg.com/us.yimg.com/i/us/pim/dclient/d/img/md5/a159c0b6e51b60f8677a452ee611a7f0_1.gif);
+    background-repeat   : no-repeat;
+    background-position : 0px 0px;
+    width               : 3px;
+}
+
+.mailoptions_toolbar_rc {
+    background-image    : url(http://us.i1.yimg.com/us.yimg.com/i/us/pim/dclient/d/img/md5/75358c6dcb4a4f0359c7b45ede234e78_1.gif);
+    background-repeat   : no-repeat;
+    background-position : 0px 0px;
+    width               : 3px;
+    height              : 30px;
+}
+
+.mailoptions_toolbar_content {
+    border-top       : 1px solid #cccccc;
+    padding          : 3px;
+    background-image : url(http://us.i1.yimg.com/us.yimg.com/i/us/pim/dclient/d/img/md5/5b8e02a2c3cd2e2f18766798c3ee0c3a_1.gif);
+    background-repeat: repeat-x;
+}
+
+.mailoptions_listEditor {
+   margin-left    : 0px;
+   padding-left   : 0px;
+   list-style-type: none;
+}
+
+.mailoptions_listEditorLine {
+   font-family:tahoma, helvetica, arial, sans-serif;
+   font-size   : 11px;
+   color       : #222222;
+   cursor      : pointer;
+   cursor      : hand;
+   height      : 18px;
+   padding     : 2px 0px 0px 5px;
+   margin      : 0px 0px 0px 0px;
+   -moz-user-select:none;
+}
+
+.selectedListItem {
+    background : #7B79C7;
+    color      : #EBEBE4;
+}
+
+.secondarySelectedListItem {
+   background : #eeeafe;
+   color      : #7974d9;
+}
+
+
+
+

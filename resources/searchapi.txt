@@ -1,0 +1,4 @@
+http://api.search.yahoo.com/ImageSearchService/V1/imageSearch?appid=YahooDemo&query=Madonna&output=json&callback=ws_results.obj.array%5B4%5D
+
+gets it back as an object array
+
